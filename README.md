@@ -75,9 +75,6 @@ RAGHAVESHWAR
 LinkedIn: www.linkedin.com/in/raghaveshwar/  
 Built as a demonstration of GCP data engineering + AI integration skills.  
 
-🙏 Acknowledgments  
-Inspired by production monitoring challenges at scale  
-Uses GCP best practices from official documentation  
-Phase 1 completed: 14/10/2025  
-  
+
+Phase 1 completed: 14/10/2025   
 ⭐ Star this repo if you find it useful!  
