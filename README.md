@@ -1,4 +1,4 @@
-# 🛡️ GCP Pipeline Guardian
+# 🛡️ The GCP Pipeline Guardian
 
 > AI-powered real-time monitoring and optimization system for Google Cloud Platform data pipelines using Cloud Logging, Pub/Sub, BigQuery, and Vertex AI
 
