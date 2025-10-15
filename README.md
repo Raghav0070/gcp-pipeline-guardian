@@ -44,7 +44,7 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 ### Phase 1 (Complete)
 - **Real-time ingestion**: Sub-second latency from log generation to storage
 - **Flexible schema**: JSON storage allows for schema evolution
-- **Cost-optimized**: $0/month using GCP free tier
+- **Cost**: $0/month using GCP free tier
 - **Production patterns**: Dead letter queues, retry logic, regional deployment
 
 ### Upcoming Phases
@@ -66,3 +66,20 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 | Region | us-central1 | Cost optimization |
 
 ---
+🤝 Contributing
+This is a personal portfolio project, but feedback is welcome! Open an issue if you spot bugs or have suggestions.
+
+file
+
+👤 Author
+RAGHAVESHWAR
+
+LinkedIn: www.linkedin.com/in/raghaveshwar/
+Built as a demonstration of GCP data engineering + AI integration skills.
+
+🙏 Acknowledgments
+Inspired by production monitoring challenges at scale
+Uses GCP best practices from official documentation
+Phase 1 completed: 14/10/2025
+
+⭐ Star this repo if you find it useful!
