@@ -2,7 +2,7 @@
 
 > AI-powered real-time monitoring and optimization system for Google Cloud Platform data pipelines using Cloud Logging, Pub/Sub, BigQuery, and Vertex AI
 
-[![Phase](https://img.shields.io/badge/Phase-1%20Complete-green)]()
+[![Phase](https://img.shields.io/badge/Phase1%20Complete-green)]()
 [![GCP](https://img.shields.io/badge/GCP-BigQuery%20|%20Pub/Sub%20|%20Logging-blue)]()
 [![Cost](https://img.shields.io/badge/Cost-$0/month-success)]()
 
