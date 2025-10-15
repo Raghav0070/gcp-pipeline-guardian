@@ -23,9 +23,9 @@ gcloud pubsub topics create pipeline-logs
   
 ### Create subscription with BigQuery delivery -(Must be done via Console - see documentation)
   
-## Create Log Sink
-### Go to Logging → Log Router
-### Create sink with filter:
+### Create Log Sink
+- Go to Logging → Log Router
+- Create sink with filter:
 ```
 resource.type="bigquery_resource"
 resource.labels.project_id="pipeline-guardian"
