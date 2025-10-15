@@ -66,8 +66,3 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 | Region | us-central1 | Cost optimization |
 
 ---
-
-## 📂 Repository Structure
-gcp-pipeline-guardian/ ├── docs/ # Documentation & diagrams ├── sql/ # BigQuery queries & schemas ├── scripts/ # Setup & deployment scripts └── README.md # This file
-
-
