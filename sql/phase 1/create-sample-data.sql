@@ -1,4 +1,4 @@
-```sql
+--sql
 -- Create sample events table for simulated pipeline
 -- This generates 100 rows of random event data
 
