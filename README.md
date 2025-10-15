@@ -25,7 +25,7 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 
 ## 🏗️ Architecture (Phase 1)
 
-![Architecture Diagram](docs/The GCP Pipeline guardian - Phase1 - Architecture.pdf)
+![Architecture Diagram](docs/The-GCP-Pipeline-guardian-Phase1-Architecture.pdf)
 
 ### Data Flow
 1. **BigQuery Scheduled Query** runs every 10 minutes (simulated pipeline)
