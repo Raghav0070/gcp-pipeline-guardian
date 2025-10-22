@@ -58,7 +58,7 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 - ✅ Real-time log ingestion (sub-second latency)
 - ✅ JSON schema flexibility
 - ✅ Production patterns (DLQ, retry logic)
-- ✅ $0/month on free tier
+- ✅ $0/month 
 
 ### Phase 2 (Complete) ✅
 - ✅ **Real-time error detection** - Captures manual + scheduled query errors
