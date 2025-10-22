@@ -37,7 +37,7 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 ---
 
 ### Phase 2: AI Error Analysis (Current)
-![Phase 2 Architecture](docs/The-GCP-Pipeline-guardian-Phase1-Architecture.png)
+![Phase 2 Architecture](docs/The-GCP-Pipeline-guardian-Phase2-Architecture.png)
 
 **Enhanced Data Flow:**
 BigQuery Error ↓ Cloud Logging (Custom Filter) ├─→ Pub/Sub → BigQuery (raw logs) └─→ Pub/Sub → Cloud Function → Gemini AI → BigQuery (AI analysis) ⚡ <5 seconds
