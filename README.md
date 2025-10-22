@@ -5,7 +5,7 @@
 [![Phase](https://img.shields.io/badge/Phase2-%20Complete-green)]()
 [![GCP](https://img.shields.io/badge/GCP-BigQuery%20|%20Pub/Sub%20|%20Cloud%20Functions-blue)]()
 [![AI](https://img.shields.io/badge/AI-Gemini%202.0%20Flash-orange)]()
-
+[![Cost](https://img.shields.io/badge/Cost-~₹2/error-success)]()
 
 ---
 
@@ -38,10 +38,12 @@ Pipeline Guardian is an intelligent monitoring system that captures, analyzes, a
 ---
 
 ### Phase 2: AI Error Analysis (Current)
-![Phase 2 Architecture](images/phase-2-architecture.png)
+![Phase 2 Architecture](images/The-GCP-Pipeline-guardian-Phase1-Architecture.png)
 
 **Enhanced Data Flow:**
 BigQuery Error ↓ Cloud Logging (Custom Filter) ├─→ Pub/Sub → BigQuery (raw logs) └─→ Pub/Sub → Cloud Function → Gemini AI → BigQuery (AI analysis) ⚡ <5 seconds
+
+
 
 
 
@@ -141,17 +143,8 @@ AI/ML integration best practices
 Production engineering mindset  
 
 📅 Timeline
-Phase 1 completed: 14/10/2025
+Phase 1 completed: 14/10/2025  
 Phase 2 completed: 21/01/2025 🎉  
   
-  
-⭐ Star This Repo
-If you find this project useful or impressive, star it!  
-
-Especially valuable if you're:  
-Learning GCP data engineering  
-Integrating AI into data pipelines  
-Building event-driven architectures  
-Preparing for Google Cloud certifications  
-  
+   
 Built with ☁️ on GCP + 🤖 Gemini AI  
