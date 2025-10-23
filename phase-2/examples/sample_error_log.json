@@ -1,0 +1,33 @@
+{
+  "insertId": "abc123xyz",
+  "timestamp": "2025-01-18T12:00:00.000Z",
+  "severity": "INFO",
+  "protoPayload": {
+    "serviceData": {
+      "jobInsertResponse": {
+        "resource": {
+          "jobStatus": {
+            "state": "DONE",
+            "error": {
+              "code": 5,
+              "message": "Not found: Table pipeline-guardian:pipeline_guardian_data.table_name was not found"
+            }
+          },
+          "jobStatistics": {
+            "createTime": "2025-01-18T12:00:00.000Z",
+            "endTime": "2025-01-18T12:00:05.000Z"
+          }
+        }
+      },
+      "jobInsertRequest": {
+        "resource": {
+          "jobConfiguration": {
+            "query": {
+              "query": "SELECT * FROM `pipeline-guardian.pipeline_guardian_data.table_name`"
+            }
+          }
+        }
+      }
+    }
+  }
+}

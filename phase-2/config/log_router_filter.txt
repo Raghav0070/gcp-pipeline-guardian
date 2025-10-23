@@ -1,0 +1,25 @@
+(
+  (
+    resource.type="bigquery_resource"
+    AND protoPayload.serviceName="bigquery.googleapis.com"
+    AND protoPayload.methodName="jobservice.insert"
+    AND NOT protoPayload.serviceData.jobInsertRequest.resource.jobConfiguration.dryRun=true
+  )
+  OR
+  (
+    resource.type="bigquery_resource"
+    AND protoPayload.serviceName="bigquery.googleapis.com"
+    AND protoPayload.methodName="google.cloud.bigquery.logging.v1.jobservice.jobcompleted"
+  )
+  OR
+  (
+    resource.type="bigquery_transfer_config"
+    AND protoPayload.methodName="google.cloud.bigquery.datatransfer.v1.TransferService.RunTransfer"
+  )
+  OR 
+  (
+    resource.type="bigquery_resource"
+    severity="ERROR"
+    AND protoPayload.serviceData.jobInsertRequest.resource.jobConfiguration.labels.data_source_id="scheduled_query"
+  )
+)

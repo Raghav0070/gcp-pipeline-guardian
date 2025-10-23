@@ -1,0 +1,7 @@
+{
+  "analysis_time": "2025-01-18T12:00:10.000Z",
+  "error_message": "Not found: Table pipeline-guardian:pipeline_guardian_data.table_name was not found",
+  "query_executed": "SELECT * FROM `pipeline-guardian.pipeline_guardian_data.table_name`",
+  "ai_explanation": "Root Cause: The table 'table_name' does not exist in the dataset 'pipeline_guardian_data'.\n\nFix: Verify the table name using:\nSELECT table_name FROM `pipeline_guardian_data.INFORMATION_SCHEMA.TABLES`\n\nPrevention: Always check table existence before querying.",
+  "suggested_fix": "See AI explanation"
+}
